@@ -1,0 +1,61 @@
+#include<stdio.h>
+#include "header.h"
+int main()
+{
+
+int num ,  index;
+int choice; 
+printf("enter number\n");
+scanf("%d",&num);
+printf("enter the index\n");
+scanf("%d",&index);
+printf("enter your choice :\n 1 =>getbit \n 2=>setbit \n 3=>clearbit\n");
+scanf("%d",&choice); 
+if (choice ==1)
+{
+int ans=getbitAt(num,index);
+ printf("%d",ans);
+
+}
+else if (choice ==2)
+{
+int ans=setbitAt(num,index);
+ printf("%d",ans);
+}
+else if (choice == 3)
+
+{int ans = clearbitAt(num,index); 
+printf("%d",ans);
+printf("\n");
+}
+else if (choice ==4)
+{
+int ans =xorfrom1ton(num);
+printf("%d",ans);
+}
+}
+/*switch(choice)
+{
+ case 1:
+       printf("enter your number\n");
+       scanf("%d",&num);
+       printf("enter index whose bit value you want to show\n");
+       scanf("%d",&index);
+       printf("the bit at index",index,"is",getbitAt(num,index));
+ case 2:
+      printf("enter your number\n");
+      scanf("%d",&num);
+      printf("enter the index  whose bit value you want to set\n");
+      scanf("%d",&index);
+      printf("the new number after setting the bit at index",index,"is",setbitAt(num,index));
+ case 3:
+     printf("enter your number\n");
+scanf("%d",&num);
+printf("enter the index whose bit value who want to clear");
+scanf("%d",&index);
+printf("the number after clearing the bit at index ",index,"is",clearbitAt(num,index));
+}
+}
+
+*/
+
