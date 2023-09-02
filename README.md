@@ -50,3 +50,47 @@ Alternatepattern = checks if the bits of a number are in an alternate pattern i.
 │ ├── header.h # Header file containing function declarations and macros
 │ ├── lib.c # Implementation of bit manipulation functions
 └── README.md # Project documentation (this file)
+ 
+ To execute your C project that uses the Bit Manipulation Library, follow these steps:
+
+**Step 1: Clone the Repository**
+If you haven't already, clone the repository to your local machine. You can do this using the following command in your terminal:
+
+```bash
+git clone https://github.com/IshikaBaliyan/BIT_MANIPULATION_PROJECT.git
+```
+
+**Step 2: Navigate to the Project Directory**
+Change your current working directory to the project folder:
+
+```bash
+cd BIT_MANIPULATION_PROJECT
+```
+
+**Step 3: Compile the Project**
+Compile your C project, ensuring that you link it with the `bit_manipulation.c` source file. You'll also need to include the `bit_manipulation.h` header file in your source code. Here's an example compilation command:
+
+```bash
+gcc -o my_program my_program.c bit_manipulation.c -lm
+```
+
+- `my_program` is the name of the output executable.
+- `my_program.c` is the name of your C source code file that uses the Bit Manipulation Library.
+- `bit_manipulation.c` contains the library functions.
+- `-lm` is used to link the math library (only required if you use math functions).
+
+**Step 4: Run the Executable**
+After successful compilation, you can run your program:
+
+```bash
+./my_program
+```
+
+Replace `my_program` with the name you provided in the compilation step.
+
+**Step 5: Observe the Output**
+Your program should now run, and any output or results should be displayed in the terminal.
+
+Make sure to customize `my_program.c` to include the specific bit manipulation operations you want to perform using the library's functions. You can also modify the example code from the previous response and save it as `my_program.c` for testing and experimentation.
+
+Ensure that you have a C compiler like GCC installed on your system to compile and run C programs.
