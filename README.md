@@ -5,7 +5,7 @@ This project focuses on exploring and implementing various bit manipulation tech
 
 The primary goals of this project are:
 
-1. *Understanding Bitwise Operators*: Gain a solid grasp of bitwise operators like AND (`&`), OR (`|`), XOR (`^`), left shift (`<<`), and right shift (`>>`).
+1. *Understanding Bitwise Operators*: Gain a solid grasp of bitwise operators like AND (`&&`), OR (`||`), XOR (`^`), left shift (`<<`), and right shift (`>>`).
 
 2. *Manipulating Individual Bits*: Learn how to set, clear, toggle, and check individual bits within a number.
 
